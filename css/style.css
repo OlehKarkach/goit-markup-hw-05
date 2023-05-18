@@ -71,10 +71,15 @@ body{
     color:  #434455;
 }
 
-.link-list::after{
+.link-list::after {
+    border-radius: 2px;
+    background-color: #404bbf;
+    height: 4px;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
     content: ''
-    /* position: absolute; */
-     
+    
 }
 
 .link-list{
@@ -90,6 +95,8 @@ body{
     line-height: 1.5;  
     letter-spacing: 0.02em;
     color:  #2E2F42;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link{
@@ -98,6 +105,8 @@ body{
     line-height: 1.5;  
     letter-spacing: 0.02em;
     color:  #434455;
+
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .link-list:hover,

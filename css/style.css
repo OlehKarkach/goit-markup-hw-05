@@ -71,7 +71,16 @@ body{
     color:  #434455;
 }
 
+.link-list::after{
+    content: ''
+    /* position: absolute; */
+     
+}
+
 .link-list{
+    position: relative;
+    color: #404bbf;
+
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -737,5 +746,5 @@ letter-spacing: 0.02em;
 
 .close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }

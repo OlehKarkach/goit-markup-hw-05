@@ -430,11 +430,11 @@ letter-spacing: 0.02em;
 
 }
 
-.transform-text:hover{
+.transform:hover{
     transform: translateY(0%);
 }
 
-.transform-text:focus{
+.transform:focus{
     transform: translateY(0%);
 }
 

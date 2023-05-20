@@ -270,16 +270,23 @@ letter-spacing: 0.02em;
     display: flex;
 }
 
-.contact-list{
+.contact-list::after{
+    border-radius: 2px;
     position: relative;
+    color:#404bbf ;
+    position: absolute;
+    left: 0; 
+    bottom: -1px; 
+    height: 4px;
+    background-color: #404bbf
 }
 
 
-.current{
+/* .current{
     color: #404bbf;
-}
+} */
 
- .nav-list .current::after{
+ /* .nav-list .current::after{
     position: absolute;
     content: '';
     left: 0;
@@ -289,7 +296,7 @@ letter-spacing: 0.02em;
     border-radius: 2px;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-}
+} */
 
 
 .nav-item:not(:last-child){
@@ -341,6 +348,8 @@ letter-spacing: 0.02em;
 }
 
 .contact-list{
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color:#2E2F42;
 }
 

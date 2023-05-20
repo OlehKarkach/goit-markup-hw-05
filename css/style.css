@@ -381,7 +381,6 @@ letter-spacing: 0.02em;
 .promo-list-item{
     width: calc((100% - 48px) / 3);
     border: 1px solid #E7E9FC;
-    
 }
 
 
@@ -389,14 +388,6 @@ letter-spacing: 0.02em;
 .link-hover-focus{
     display: block;
     
-}
-
-.link-hover-focus:hover{
-    transform: translateY(0%);
-}
-
-.link-hover-focus:focus{
-    transform:translateY(0%);
 }
 
 .link-hover-focus:hover,
@@ -430,12 +421,12 @@ letter-spacing: 0.02em;
     
 }
 
-.promo-list-item:hover .transform-text{
-    transform: translateY(0%);
-}
 
+
+.promo-list-item:hover .transform-text,
 .promo-list-item:focus .transform-text{
     transform: translateY(0%);
+    
 }
 
 .job-title{

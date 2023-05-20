@@ -421,12 +421,9 @@ letter-spacing: 0.02em;
     
 }
 
-
-
-.promo-list-item:hover .transform-text,
-.promo-list-item:focus .transform-text{
+.link-hover-focus:hover .transform-text,
+.link-hover-focus:focus .transform-text{
     transform: translateY(0%);
-    
 }
 
 .job-title{

@@ -271,6 +271,7 @@ letter-spacing: 0.02em;
 }
 
 .contact-list::after{
+    content: '';
     border-radius: 2px;
     /* position: relative; */
     color:#404bbf ;

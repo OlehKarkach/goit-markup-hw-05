@@ -279,7 +279,7 @@ letter-spacing: 0.02em;
     color: #404bbf;
 }
 
-.menu-list .current::after{
+ .nav-list .current::after{
     position: absolute;
     content: '';
     left: 0;

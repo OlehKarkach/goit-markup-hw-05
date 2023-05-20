@@ -789,11 +789,9 @@ letter-spacing: 0.02em;
 
 .close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    color: #FFFFFF;
 }
 
-.modal-btn:hover,
-.modal-btn:focus{
+.close-color:hover,
+.close-color:focus{
     color: #FFFFFF;
 }

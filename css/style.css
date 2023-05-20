@@ -284,10 +284,13 @@ letter-spacing: 0.02em;
 
 .current{
     position: relative;
-    color: #404bbf;
+    
 }
 
- .nav-list .contact-list::after{
+.nav-list .current{
+    color: #404bbf;
+}
+ /* .nav-list .contact-list::after{
     position: absolute;
     content: '';
     left: 0;
@@ -297,7 +300,7 @@ letter-spacing: 0.02em;
     border-radius: 2px;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-}
+} */
 
 
 .nav-item:not(:last-child){

@@ -272,7 +272,7 @@ letter-spacing: 0.02em;
 
 .contact-list::after{
     border-radius: 2px;
-    position: relative;
+    /* position: relative; */
     color:#404bbf ;
     position: absolute;
     left: 0; 
@@ -283,6 +283,7 @@ letter-spacing: 0.02em;
 
 
 .current{
+    position: relative;
     color: #404bbf;
 }
 
